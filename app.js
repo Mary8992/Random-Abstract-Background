@@ -7,6 +7,11 @@ for (let i = 0; i <= 80; i++) {
     container.appendChild(blocks);
 }
 
+function circle() {
+    let circleBtn = document.querySelector('.circleBtn');
+    container.classList.toggle('circle')
+}
+
 function generate() {
     anime({
         targets : '.block',
